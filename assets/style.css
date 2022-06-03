@@ -1,45 +1,41 @@
 .bg-custom {
-
-    background-image: linear-gradient(30deg, #30a4e7 0%, #030374 100%);
-
-
+    background-image: linear-gradient(30deg, #050505 0%, #2d2d2e 100%);
+    border-bottom: 
 }
 
-/* .myRow{
-    max-width: 200px;
-} */
 
-
-h1.w-nav{
+h1.w-nav {
     color: white;
     display: inline-block;
     margin: auto;
 }
 
-h1.fixed{
+h1.fixed {
     padding-bottom: 2%;
 
 
 }
-.city-but{
+
+.city-but {
     height: 30px;
     margin: 4px;
     background-color: red;
 }
-#s-but{
+
+#s-but {
     height: 30px;
     text-align: center;
     font-size: small;
-    
-    
+
+
 }
 
-#city-posit{
+#city-posit {
     height: 180px;
     display: inline-block;
     margin: 10px;
     background-color: white;
-    
+
     position: relative;
     top: 300px;
     left: .1%;
@@ -48,43 +44,6 @@ h1.fixed{
 
 
 
-/* #word {
-
-    color: red;
-
-} */
-/* 
-/* #j-posit {
-    height: 250px;
-    display: inline-block;
-    margin: 15px;
-    background-color: white;
-    border: 2px solid black;
-    position: absolute;
-    right: .5%;
-
-} */ */
-
-/* #card-posit{
-    position: absolute;
-    right: -52%;
-    margin-top: 10%;
-} */
-/* .funt{
-    background-color: white;
-    color: red;
-} */
-/* .thecard{
-   
-    height: 600px;
-   
-    margin-left:100px ;
-    
-} */
-.hello{
-    
-   color: red;
-}
 
 /* #day5{
     visibility: hidden;
@@ -101,14 +60,3 @@ h1.fixed{
 #day1{
     visibility: hidden;
 } */
-
-/* #s-posit {
-    height: 180px;
-    display: inline-block;
-    margin: 10px;
-    /* background-color: white;
-    border-bottom: 2px solid black; */
-    /* position: absolute;
-    left: .1%;
-
-} */ 
