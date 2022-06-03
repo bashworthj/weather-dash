@@ -13,13 +13,13 @@
 
 
 ## Visuals
-![Screen Shot]()
+![Screen Shot]('assets/Weather-Finder-Outer.png')
 
 ## Authors and Acknowledgement
 - Ben Ashworth
 
 ## Resources
-[Repo Link]() 
+[Repo Link](https://github.com/bashworthj/weather-dash) 
 
-[Live Site]()
+[Live Site](https://bashworthj.github.io/weather-dash/)
  

@@ -49,7 +49,7 @@ function currentWeather() {
 
         document.getElementById('humidity1day').textContent = data.list[1].main.humidity
         document.getElementById('humidity2day').textContent = data.list[2].main.humidity
-        document.getElementById('humidity3day').textContent = data.list[3].wind.humidity
+        document.getElementById('humidity3day').textContent = data.list[3].main.humidity
         document.getElementById('humidity4day').textContent = data.list[4].main.humidity
         document.getElementById('humidity5day').textContent = data.list[5].main.humidity
       
