@@ -47,6 +47,7 @@ function currentWeather() {
         document.getElementById('wind4day').textContent = data.list[4].wind.speed
         document.getElementById('wind5day').textContent = data.list[5].wind.speed
 
+        
         document.getElementById('humidity1day').textContent = data.list[1].main.humidity
         document.getElementById('humidity2day').textContent = data.list[2].main.humidity
         document.getElementById('humidity3day').textContent = data.list[3].main.humidity
