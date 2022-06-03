@@ -13,7 +13,7 @@
 
 
 ## Visuals
-![Screen Shot]('assets/Weather-Finder-Outer.png')
+![Screen Shot](assets/Weather-Finder-Outer.png)
 
 ## Authors and Acknowledgement
 - Ben Ashworth
