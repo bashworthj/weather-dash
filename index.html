@@ -10,14 +10,12 @@
   <title>Weather Finder-Outer</title>
   <style>
     h2{
-      padding-left: 7%;
+      padding-left: 5%;
       font-weight: 700;
       
       color: brown;
     }
-    body{
-      background-color: 
-    }
+   
   </style>
 
 </head>
@@ -31,10 +29,13 @@
   <div class="container-fluid">
     <div clas="row">
       <div class="d-flex flex-row-reverse mt-3 ">
-        <div class="jumbotron jumbotron-fluid col-9 ">
+        <div class="jumbotron col-9 ">
           <div class="container ">
-            <h1 class="display-4">Fluid jumbssotron</h1>
-            <p class="lead"></p>
+            <h1 class="display-2 cityname" id="currentCity">Curent Weather</h1>
+            <h4>Temp: <span id="temp"></span>F</h4>
+            <h4>Wind: <span id="wind"></span>mph</h4>
+            <h4>Humidity: <span id="humidity"></span>%</h4>
+            <p class="lead" id="currentCondit"></p>
           </div>
         </div>
 
@@ -56,13 +57,16 @@
         </div>
       </div>
 
-      <div class="d-flex flex-row-reverse m-5 pr-4"> 
+      <div class="d-flex flex-row-reverse m-5 pr-2"> 
         <h2>Five Day Forecast
         </h2>
 
         <div id="day5" class="card col-2 " style="width:  15rem;">
           <div class="card-body">
             <h5 class="card-title"></h5>
+            <h6>Temp: <span id="temp5day"></span>F</h6>
+            <h6>Wind: <span id="wind5day"></span>mph</h6>
+            <h6>Humidity: <span id="humidity5day"></span>%</h6>
             <h6 class="card-subtitle mb-2 text-muted"></h6>
             <p class="card-text"> </p>
           </div>
@@ -70,6 +74,9 @@
         <div id="day4" class="card col-2 " style="width:  15rem;">
           <div class="card-body">
             <h5 class="card-title"></h5>
+            <h6>Temp: <span id="temp4day"></span>F</h6>
+            <h6>Wind: <span id="wind4day"></span>mph</h6>
+            <h6>Humidity: <span id="humidity4day"></span>%</h6>
             <h6 class="card-subtitle mb-2 text-muted"></h6>
             <p class="card-text"> </p>
           </div>
@@ -77,6 +84,9 @@
         <div id="day3" class="card col-2 " style="width:  15rem;">
           <div class="card-body">
             <h5 class="card-title"></h5>
+            <h6>Temp: <span id="temp3day"></span>F</h6>
+            <h6>Wind: <span id="wind3day"></span>mph</h6>
+            <h6>Humidity: <span id="humidity3day"></span>%</h6>
             <h6 class="card-subtitle mb-2 text-muted"></h6>
             <p class="card-text"> </p>
           </div>
@@ -84,6 +94,9 @@
         <div id="day2" class="card col-2 " style="width:  15rem;">
           <div class="card-body">
             <h5 class="card-title"></h5>
+            <h6>Temp: <span id="temp2day"></span>F</h6>
+            <h6>Wind: <span id="wind2day"></span>mph</h6>
+            <h6>Humidity: <span id="humidity2day"></span>%</h6>
             <h6 class="card-subtitle mb-2 text-muted"></h6>
             <p class="card-text"> </p>
           </div>
@@ -91,6 +104,9 @@
         <div id="day1" class="card col-2 " style="width:  15rem;">
           <div class="card-body">
             <h5 class="card-title"></h5>
+            <h6>Temp: <span id="temp1day"></span>F</h6>
+            <h6>Wind: <span id="wind1day"></span>mph</h6>
+            <h6>Humidity: <span id="humidity1day"></span>%</h6>
             <h6 class="card-subtitle mb-2 text-muted"></h6>
             <p class="card-text"> </p>
           </div>
